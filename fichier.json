@@ -1,0 +1,115 @@
+[
+    {
+        "Author":"Atsushi Ohkubo",
+        "Author-img":"./images/atsushi-ohkubo.jpg",
+        "Manga":"Soul-Eater",
+        "Manga-img":"./images/anime-soul-eater.jpg",
+        "Year":"2004",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Katsuhiro-Otomo",
+        "Author-img":"./images/Katsuhiro-Otomo.jpg",
+        "Manga":"Akira",
+        "Manga-img":"./images/Akira.jpg",
+        "Year":"1988",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Kohei Horikoshi",
+        "Author-img":"./images/kohei-horikoshi.jpg",
+        "Manga":"My hero Academia",
+        "Manga-img":"./images/my-hero-academia.jpg",
+        "Year":"2014",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Yuki Tabata",
+        "Author-img":"./images/Yuki Tabata.jpg",
+        "Manga":"Black Clover",
+        "Manga-img":"./images/black-clover.jpg",
+        "Year":"2015",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Tsugumi Ōba",
+        "Author-img":"./images/tsugumi-oba.jpg",
+        "Manga":"Death Note",
+        "Manga-img":"./images/death-note.jpg",
+        "Year":"2003",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Akira Toriyama",
+        "Author-img":"./images/toriyama.jpg",
+        "Manga":"Dragon Ball",
+        "Manga-img":"./images/dragon-ball.jpg",
+        "Year":"1984",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Atsushi Ohkubo",
+        "Author-img":"./images/atsushi-ohkubo.jpg",
+        "Manga":"Enen No Shouboutai",
+        "Manga-img":"./images/enen-no-shouboutai.jpg",
+        "Year":"2015",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Mashima Hiro",
+        "Author-img":"./images/mashima-hiro.jpg",
+        "Manga":"Fairy Tail",
+        "Manga-img":"./images/Fairy-tail.png",
+        "Year":"2006",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Yoshihiro Togashi",
+        "Author-img":"./images/togashi.jpeg",
+        "Manga":"Hunter x Hunter",
+        "Manga-img":"./images/HunterxHunter.jpg",
+        "Year":"1998",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Naoki Urasawa",
+        "Author-img":"./images/naoki-urasawa.jpg",
+        "Manga":"Monster",
+        "Manga-img":"./images/monster-anime.jpg",
+        "Year":"1994",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Masashi Kishimoto",
+        "Author-img":"./images/kishimoto.jpg",
+        "Manga":"Naruto Shippuden",
+        "Manga-img":"./images/naruto_shippuden.jpg",
+        "Year":"2007",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Eiichiro-Oda",
+        "Author-img":"./images/eiichiro-oda.jpg",
+        "Manga":"One piece",
+        "Manga-img":"./images/one piece.jpg",
+        "Year":"1997",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"Hajime Hisayama",
+        "Author-img":"./images/hajime-hisayama.jpg",
+        "Manga":"Shingeki no Kyojin",
+        "Manga-img":"./images/snk.jpg",
+        "Year":"2009",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    },
+    {
+        "Author":"koyoharu gotōge",
+        "Author-img":"./images/Koyoharu_Gotouge.jpg",
+        "Manga":"Demon slayer",
+        "Manga-img":"./images/demon-slayer.jpg",
+        "Year":"2016",
+        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consectetur labore ex necessitatibus veritatis, repudiandae reiciendis officia possimus enim. Sapiente unde qui eligendi cumque magni amet non maiores, ratione odit?"
+    }
+]
+

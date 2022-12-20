@@ -1,0 +1,425 @@
+/* For more information about "the_img" div, 
+please visit the file : "./more informations about the tree structure od the div the_img.pdf";  */
+
+:root{
+    --color-gray:rgb(197, 194, 194);
+    --color-red:rgb(255, 38, 81);
+    --color-background-section:rgb(248, 248, 248);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+/* **********************************nav beginning************************************* */
+nav{
+    height: 10%;
+    background-color:var(--color-background-section);
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+
+nav h2{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.div_txt a,nav a{
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: relative;
+    color:var(--color-gray);
+    font-size: 15px;
+}
+
+nav a{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-right: 12px;
+    text-decoration:none;
+}
+
+/* **********************************nav end************************************* */
+
+
+/* **********************************container beginning************************************* */
+
+.container{
+    max-width:1100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/* **********************************container end************************************* */
+/*
+/* **********************************global-section(ul) beginning************************************* */
+.global-section{
+    max-width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap:2vmin;
+    padding:14px;
+}
+
+.global-section::after{
+    content: '';
+    display: block;
+    flex-grow: 10;
+}
+/* **********************************global-section(ul) end************************************* */
+
+/* **********************************  style of all ul li beginning************************************* */
+.global-section li{
+    width:auto;
+    height:250px;
+    list-style-type: none;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.global-section li img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+/* **********************************  style of all ul li end************************************* */
+
+/* **********************************  style of all  ul li div and children beginning************************************* */
+
+.global-section li div{
+    position: absolute;
+    z-index: 2;
+    height:120px;
+    width:120px;
+    bottom: 20px;
+    left: 20px;
+    padding: 5px;
+}
+
+.global-section li div p{
+    color:#f1f1f1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.global-section li div p:nth-child(1){
+    font-size:25px; 
+}
+
+.global-section li div p:nth-child(2){
+    color:var(--color-red);
+    font-size:20px;
+    letter-spacing: 1px;
+}
+
+.the_img{
+    position: absolute;
+    z-index: 4;
+    width:1100px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* **********************************  style of all  ul li div and children end************************************* */
+
+/* **********************************  style of the div that will contain the slideshow of a particular img BEGIN************************************* */
+.div_container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+/* **********************************  style of the div that will contain the slideshow of a particular img END************************************* */
+
+
+.div_imgDescript{
+    width:60%;
+    height:600px;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.div_imgDescript .div_img{
+    width:500px;
+    height:100%;
+    margin-right: 5px;
+}
+
+.div_img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.div_author{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height:400px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.div_title{
+    width:200px;
+    height:200px;
+    padding:15px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    right:40px;
+    top:-2px;
+}
+
+.div_title span:nth-child(1){
+    display: block;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.div_title span:nth-child(2){
+    display: block;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:var(--color-gray);
+}
+
+.div_authorImg{
+    width:140px;
+    height:140px;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.div_authorImg img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.div_txt{
+    position: relative;
+    width:40%;
+    height: auto;
+}
+
+.div_txt span{
+    position: absolute;
+    z-index: -3;
+    font-size: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:var(--color-gray);
+}
+
+.div_txt p{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(105, 104, 104);
+    position: relative;
+    width:350px;
+    line-height: 2;
+    left:100px;
+    top:100px;
+    text-align: justify;
+}
+.div_txt a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top:150px;
+    left:100px;
+    cursor: pointer;
+    text-decoration: underline;
+    color:var(--color-gray);
+}
+
+.div_txt a{
+    font-family:'Times New Roman', Times, serif;
+    top:150px;
+    left:100px;
+    text-decoration: underline;
+}
+
+.div_footer{
+    width:95%;
+    height:100px;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.div_footer::before{
+    content: "";
+    display: block;
+    width:95%;
+    height:3px;
+    background-color: var(--color-gray);
+}
+
+.progress{
+    position: relative;
+    bottom:3px;
+    border-radius: 2px;
+    width:0%;
+    height:3px;
+    background-color: var(--color-red);
+}
+
+.div_footer .container_left{
+    width:100px;
+    height:100px;
+    /* background-color: coral; */
+    position: relative;
+    left:20px;
+}
+
+.div_footer .container_left span{
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container_left span:nth-child(1){
+    font-size: 20px;
+}
+
+.container_left span:nth-child(2){
+    font-size: 20px;
+    color: var(--color-gray);
+}
+
+
+.div_footer .container_right{
+    width:100px;
+    position: absolute;
+    top:25px;
+    right:0;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: lightblue; */
+}
+
+.div_footer .container_right button{
+    width:50px;
+    height:50px;
+    padding:10px;
+    margin-right: 3px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    transition: transform 0.1s ease-in;
+    justify-content: center;
+}
+
+.div_footer .container_middle{
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:25px;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-red);
+}
+
+.div_footer .container_right button:active{
+    transform: scale(0.9);
+}
+
+button img{
+    width:50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1250px){
+    .the_img{
+        flex-direction: column;
+    }
+
+    .div_footer{
+        display: none;
+    }
+    .div_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div_txt{
+        position: relative;
+        right:150px;
+    }
+}
+
+@media screen and (max-width:830px)
+{
+    .div_imgDescript .div_img{
+        width:250px;
+        height:100%;
+        margin-right: 5px;
+    }
+
+    .div_txt{
+        position: relative;
+        right:250px;
+    }
+}
+
+@media screen and (max-width:620px)
+{
+    .div_container{
+        padding: 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:450px;
+        height: 50%;
+    }
+
+    .div_txt{
+        position: relative;
+        right:0px;
+    }
+
+    .div_txt span{
+        font-size: 100px;
+    }
+
+    .div_txt p{
+        left:0;
+        top:100px;
+        padding: 10px;
+    }
+
+    .div_container{
+        width:70%;
+    }
+
+    .div_imgDescript .div_img{
+        width:200px;
+    }
+}
